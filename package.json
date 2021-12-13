@@ -4,19 +4,19 @@
   "description": "api para la apliacion de tramites umss",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "npm start",
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Abdiel49/apiTramites.git"
+    "url": "git+https://github.com/adrianC56/dpapitramites.git"
   },
-  "author": "agile",
+  "author": "adrian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Abdiel49/apiTramites/issues"
+    "url": "https://github.com/Abdiel49/dpapitramites/issues"
   },
-  "homepage": "https://github.com/Abdiel49/apiTramites#readme",
+  "homepage": "https://github.com/Abdiel49/dpapitramites#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
