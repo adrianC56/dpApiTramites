@@ -28,7 +28,7 @@ app.get('/api/tramites/umss/:id', (req, res) => {
   }
 });
 
-app.get('/api/tramites/umss/update', (req, res) => {
+app.get('/api/tramites/update', (req, res) => {
   res.status(200).send(updateData);
 });
 
