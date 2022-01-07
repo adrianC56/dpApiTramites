@@ -1,6 +1,7 @@
 const cors = require('cors');
 const express = require('express');
 const data = require('./assets/data');
+const updateData = require('./assets/updateData.json');
 
 const app = express();
 const port = process.env.PORT || 3000;;
@@ -25,6 +26,10 @@ app.get('/api/tramites/umss/:id', (req, res) => {
   }else{
     res.status(404).send({data: null, id: idReq, message:"not find data id"});
   }
+});
+
+app.get('/api/tramites/umss/update', (req, res) => {
+  res.status(200).send(updateData);
 });
 
 app.listen(port, () => {
