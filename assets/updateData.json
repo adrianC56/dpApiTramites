@@ -1,36 +1,23 @@
 [
     {
-        "updateAt": "Fri Jan 07 2022 12:35:09 GMT-0400",
+        "updateAt": "Fri Jan 07 2022 14:35:09 GMT-0400",
         "descripcion":  "nuevos",
         "contenido": [
-            "tramite0",
-            "tramite1",
-            "tramite2"
+            "Convalidación de Materias",
+            "Examen de Gracia"
         ] 
     },
     {
-        "updateAt": "Mon Jan 03 2022 20:51:10 GMT-0400",
+        "updateAt": "Fri Jan 07 2022 15:35:09 GMT-0400",
         "descripcion": "actualizados",
         "contenido": [
             {
-                "subcont": "Tramite uno",
-                "nuevo" : "Mapas añadidos0"
+                "subcont": "Certificado Academico",
+                "nuevo" : "Mapas Añadidos"
             },
             {
-                "subcont": "Tramite dos",
-                "nuevo" : "Mapas añadidos1"
-            },
-            {
-                "subcont": "Tramite tres",
-                "nuevo" : "Mapas añadidos2"
-            },
-            {
-                "subcont": "Tramite cuatro",
-                "nuevo" : "Mapas añadidos3"
-            },
-            {
-                "subcont": "Tramite cinco",
-                "nuevo" : "Mapas añadidos4"
+                "subcont": "Habilitación de carnet universitario",
+                "nuevo" : "Cambios en los requisitos"
             }
         ] 
     }    
